@@ -1,0 +1,14 @@
+Animals Model (Jacob Farrish)
+namespace Final_Web_API.Models 
+{
+    public class Animal
+    {
+        public int Id { get; set; }
+        public string Phylum { get; set; }
+        public string Class { get; set; }
+        public string Genus { get; set; }
+        public string Species { get; set; }
+    }
+
+
+}
